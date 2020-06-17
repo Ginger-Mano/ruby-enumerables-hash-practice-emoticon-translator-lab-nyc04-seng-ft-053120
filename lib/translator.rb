@@ -32,7 +32,7 @@ def get_english_meaning(file_name, emoticon)
   emoticons.each do |key, value|
     if value[:japanese] == emoticon
       key
-      end      
+      end
     end
     #binding.pry
     #emoticon = emo_sym[:japanese]
