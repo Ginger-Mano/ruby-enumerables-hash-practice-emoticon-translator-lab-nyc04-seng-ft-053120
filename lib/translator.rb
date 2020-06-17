@@ -32,6 +32,7 @@ def get_english_meaning(file_name, emoticon)
   emoticons.keys.each do |emo_sym|
     value[:japanese] = key
     binding.pry
+    puts "hi"
     #binding.pry
   end
     value[:japanese]
