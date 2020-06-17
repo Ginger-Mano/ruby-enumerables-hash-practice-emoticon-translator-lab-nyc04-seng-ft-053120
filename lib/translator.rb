@@ -31,8 +31,8 @@ def get_english_meaning(file_name, emoticon)
   emoticons = load_library(file_name)
   emoticons.each do |key, value|
     emoticons.value?(value[:japanese])
-    binding.pry
     value[:japanese] = key
+    binding.pry
     #binding.pry
   end
     value[:japanese]
