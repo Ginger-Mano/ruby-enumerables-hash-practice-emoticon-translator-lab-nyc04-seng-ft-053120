@@ -24,7 +24,7 @@ def get_japanese_emoticon(file_name, emoticon)
   end
     #binding.pry
     #binding.pry
-    value[:japanese]
+    "Sorry, that emoticon was not found"
     #go over each key and assign the japanese value to the english name.
     #japanese value == english name
 end
