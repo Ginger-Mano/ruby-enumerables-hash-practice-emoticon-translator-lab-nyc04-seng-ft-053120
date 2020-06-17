@@ -19,7 +19,7 @@ def get_japanese_emoticon(file_name, emoticon)
   emoticons.each do |key, value|
     emoticons.value?(value[1])
     value[1] = key
-    binding.pry
+    #binding.pry
   end
     value[1]
     #go over each key and assign the japanese value to the english name.
