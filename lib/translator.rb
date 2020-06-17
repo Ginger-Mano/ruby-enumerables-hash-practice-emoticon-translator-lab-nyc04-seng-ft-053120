@@ -31,7 +31,7 @@ def get_english_meaning(file_name, emoticon)
   emoticons = load_library(file_name)
   emoticons.each do |key, value|
     if value[:japanese] == emoticon
-      key
+      key[:english]
     else
       puts "None"
     end
