@@ -28,6 +28,12 @@ def get_japanese_emoticon(file_name, emoticon)
 end
 
 def get_english_meaning
-  emoticons[:japanese] = emoticons[:english]
-  emoticons[:english]# code goes here
+  emoticons = load_library(file_name)
+  emoticons.each do |key, value|
+    emoticons.value?(value[:japanese])
+    #binding.pry
+    value[:japanese] = key
+    #binding.pry
+  end
+    value[:japanese]
 end
