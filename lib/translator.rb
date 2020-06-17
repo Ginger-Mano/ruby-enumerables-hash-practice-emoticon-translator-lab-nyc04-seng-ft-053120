@@ -37,7 +37,7 @@ def get_english_meaning(file_name, emoticon)
     end
     #binding.pry
     #emoticon = emo_sym[:japanese]
-    binding.pry
+  #  binding.pry
     puts "hi"
     #binding.pry
   end
