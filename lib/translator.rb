@@ -31,12 +31,12 @@ def get_english_meaning(file_name, emoticon)
   emoticons = load_library(file_name)
   emoticons.each do |key, value|
     if value[:japanese] == emoticon
-      key
+      return key
       end
     end
     #binding.pry
     #emoticon = emo_sym[:japanese]
   #  binding.pry
     #binding.pry
-    key
+    "Emo not found"
 end
